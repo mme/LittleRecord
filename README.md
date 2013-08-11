@@ -15,6 +15,7 @@ entity.name = @"Markus";
 // query
 [LRTestEntity first:[NSPredicate predicateWithFormat:@"identifier == %@", @2]];
 [LRTestEntity all]
+[LRTestEntity where:[NSPredicate predicateWithFormat:@"name == %@", @"Markus"] orderBy:@"id" ascending:YES];
 
 // delete
 [entity remove];
