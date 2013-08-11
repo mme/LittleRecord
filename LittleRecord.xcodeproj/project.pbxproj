@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		281F61F217B7AFCF008D0541 /* LRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281F61F017B7AFCF008D0541 /* LRViewController.m */; };
+		281F61F317B7AFCF008D0541 /* LRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 281F61F117B7AFCF008D0541 /* LRViewController.xib */; };
+		281F61F717B7B0E5008D0541 /* LRTestEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 281F61F617B7B0E5008D0541 /* LRTestEntity.m */; };
 		288869EC17B798FE0050A7CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288869EB17B798FE0050A7CF /* Cocoa.framework */; };
 		288869F617B798FE0050A7CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 288869F417B798FE0050A7CF /* InfoPlist.strings */; };
 		288869F817B798FE0050A7CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288869F717B798FE0050A7CF /* main.m */; };
@@ -18,6 +21,7 @@
 		28886A0E17B798FE0050A7CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288869EB17B798FE0050A7CF /* Cocoa.framework */; };
 		28886A1617B798FE0050A7CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28886A1417B798FE0050A7CF /* InfoPlist.strings */; };
 		28886A1917B798FE0050A7CF /* LittleRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28886A1817B798FE0050A7CF /* LittleRecordTests.m */; };
+		28886A2517B7992D0050A7CF /* CoreData+LittleRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 28886A2417B7992D0050A7CF /* CoreData+LittleRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		281F61EF17B7AFCF008D0541 /* LRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRViewController.h; sourceTree = "<group>"; };
+		281F61F017B7AFCF008D0541 /* LRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRViewController.m; sourceTree = "<group>"; };
+		281F61F117B7AFCF008D0541 /* LRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRViewController.xib; sourceTree = "<group>"; };
+		281F61F517B7B0E5008D0541 /* LRTestEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRTestEntity.h; sourceTree = "<group>"; };
+		281F61F617B7B0E5008D0541 /* LRTestEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRTestEntity.m; sourceTree = "<group>"; };
 		288869E717B798FE0050A7CF /* LittleRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		288869EB17B798FE0050A7CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		288869EE17B798FE0050A7CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -51,6 +60,8 @@
 		28886A1517B798FE0050A7CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		28886A1717B798FE0050A7CF /* LittleRecordTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LittleRecordTests.h; sourceTree = "<group>"; };
 		28886A1817B798FE0050A7CF /* LittleRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleRecordTests.m; sourceTree = "<group>"; };
+		28886A2317B7992D0050A7CF /* CoreData+LittleRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CoreData+LittleRecord.h"; sourceTree = "<group>"; };
+		28886A2417B7992D0050A7CF /* CoreData+LittleRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CoreData+LittleRecord.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +127,11 @@
 		288869F117B798FE0050A7CF /* LittleRecord */ = {
 			isa = PBXGroup;
 			children = (
+				28886A2217B799070050A7CF /* Little Record */,
 				288869FD17B798FE0050A7CF /* LRAppDelegate.h */,
 				288869FE17B798FE0050A7CF /* LRAppDelegate.m */,
+				281F61F517B7B0E5008D0541 /* LRTestEntity.h */,
+				281F61F617B7B0E5008D0541 /* LRTestEntity.m */,
 				28886A0017B798FE0050A7CF /* MainMenu.xib */,
 				28886A0317B798FE0050A7CF /* LittleRecord.xcdatamodeld */,
 				288869F217B798FE0050A7CF /* Supporting Files */,
@@ -133,6 +147,9 @@
 				288869F717B798FE0050A7CF /* main.m */,
 				288869F917B798FE0050A7CF /* LittleRecord-Prefix.pch */,
 				288869FA17B798FE0050A7CF /* Credits.rtf */,
+				281F61EF17B7AFCF008D0541 /* LRViewController.h */,
+				281F61F017B7AFCF008D0541 /* LRViewController.m */,
+				281F61F117B7AFCF008D0541 /* LRViewController.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -154,6 +171,15 @@
 				28886A1417B798FE0050A7CF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28886A2217B799070050A7CF /* Little Record */ = {
+			isa = PBXGroup;
+			children = (
+				28886A2317B7992D0050A7CF /* CoreData+LittleRecord.h */,
+				28886A2417B7992D0050A7CF /* CoreData+LittleRecord.m */,
+			);
+			name = "Little Record";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +257,7 @@
 				288869F617B798FE0050A7CF /* InfoPlist.strings in Resources */,
 				288869FC17B798FE0050A7CF /* Credits.rtf in Resources */,
 				28886A0217B798FE0050A7CF /* MainMenu.xib in Resources */,
+				281F61F317B7AFCF008D0541 /* LRViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +295,9 @@
 				288869F817B798FE0050A7CF /* main.m in Sources */,
 				288869FF17B798FE0050A7CF /* LRAppDelegate.m in Sources */,
 				28886A0517B798FE0050A7CF /* LittleRecord.xcdatamodeld in Sources */,
+				28886A2517B7992D0050A7CF /* CoreData+LittleRecord.m in Sources */,
+				281F61F217B7AFCF008D0541 /* LRViewController.m in Sources */,
+				281F61F717B7B0E5008D0541 /* LRTestEntity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +481,7 @@
 				28886A1E17B798FE0050A7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28886A1F17B798FE0050A7CF /* Build configuration list for PBXNativeTarget "LittleRecordTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +490,7 @@
 				28886A2117B798FE0050A7CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
