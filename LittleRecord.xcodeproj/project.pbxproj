@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		288869EC17B798FE0050A7CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288869EB17B798FE0050A7CF /* Cocoa.framework */; };
+		288869F617B798FE0050A7CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 288869F417B798FE0050A7CF /* InfoPlist.strings */; };
+		288869F817B798FE0050A7CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 288869F717B798FE0050A7CF /* main.m */; };
+		288869FC17B798FE0050A7CF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 288869FA17B798FE0050A7CF /* Credits.rtf */; };
+		288869FF17B798FE0050A7CF /* LRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 288869FE17B798FE0050A7CF /* LRAppDelegate.m */; };
+		28886A0217B798FE0050A7CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28886A0017B798FE0050A7CF /* MainMenu.xib */; };
+		28886A0517B798FE0050A7CF /* LittleRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28886A0317B798FE0050A7CF /* LittleRecord.xcdatamodeld */; };
+		28886A0D17B798FE0050A7CF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28886A0C17B798FE0050A7CF /* SenTestingKit.framework */; };
+		28886A0E17B798FE0050A7CF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288869EB17B798FE0050A7CF /* Cocoa.framework */; };
+		28886A1617B798FE0050A7CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28886A1417B798FE0050A7CF /* InfoPlist.strings */; };
+		28886A1917B798FE0050A7CF /* LittleRecordTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28886A1817B798FE0050A7CF /* LittleRecordTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28886A0F17B798FE0050A7CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 288869DE17B798FE0050A7CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288869E617B798FE0050A7CF;
+			remoteInfo = LittleRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		288869E717B798FE0050A7CF /* LittleRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288869EB17B798FE0050A7CF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		288869EE17B798FE0050A7CF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		288869EF17B798FE0050A7CF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		288869F017B798FE0050A7CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		288869F317B798FE0050A7CF /* LittleRecord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleRecord-Info.plist"; sourceTree = "<group>"; };
+		288869F517B798FE0050A7CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		288869F717B798FE0050A7CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		288869F917B798FE0050A7CF /* LittleRecord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittleRecord-Prefix.pch"; sourceTree = "<group>"; };
+		288869FB17B798FE0050A7CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		288869FD17B798FE0050A7CF /* LRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRAppDelegate.h; sourceTree = "<group>"; };
+		288869FE17B798FE0050A7CF /* LRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRAppDelegate.m; sourceTree = "<group>"; };
+		28886A0117B798FE0050A7CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		28886A0417B798FE0050A7CF /* LittleRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleRecord.xcdatamodel; sourceTree = "<group>"; };
+		28886A0B17B798FE0050A7CF /* LittleRecordTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleRecordTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28886A0C17B798FE0050A7CF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		28886A1317B798FE0050A7CF /* LittleRecordTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LittleRecordTests-Info.plist"; sourceTree = "<group>"; };
+		28886A1517B798FE0050A7CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28886A1717B798FE0050A7CF /* LittleRecordTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LittleRecordTests.h; sourceTree = "<group>"; };
+		28886A1817B798FE0050A7CF /* LittleRecordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LittleRecordTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288869E417B798FE0050A7CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288869EC17B798FE0050A7CF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28886A0717B798FE0050A7CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28886A0D17B798FE0050A7CF /* SenTestingKit.framework in Frameworks */,
+				28886A0E17B798FE0050A7CF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288869DC17B798FE0050A7CF = {
+			isa = PBXGroup;
+			children = (
+				288869F117B798FE0050A7CF /* LittleRecord */,
+				28886A1117B798FE0050A7CF /* LittleRecordTests */,
+				288869EA17B798FE0050A7CF /* Frameworks */,
+				288869E817B798FE0050A7CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288869E817B798FE0050A7CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288869E717B798FE0050A7CF /* LittleRecord.app */,
+				28886A0B17B798FE0050A7CF /* LittleRecordTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288869EA17B798FE0050A7CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				288869EB17B798FE0050A7CF /* Cocoa.framework */,
+				28886A0C17B798FE0050A7CF /* SenTestingKit.framework */,
+				288869ED17B798FE0050A7CF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		288869ED17B798FE0050A7CF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				288869EE17B798FE0050A7CF /* AppKit.framework */,
+				288869EF17B798FE0050A7CF /* CoreData.framework */,
+				288869F017B798FE0050A7CF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		288869F117B798FE0050A7CF /* LittleRecord */ = {
+			isa = PBXGroup;
+			children = (
+				288869FD17B798FE0050A7CF /* LRAppDelegate.h */,
+				288869FE17B798FE0050A7CF /* LRAppDelegate.m */,
+				28886A0017B798FE0050A7CF /* MainMenu.xib */,
+				28886A0317B798FE0050A7CF /* LittleRecord.xcdatamodeld */,
+				288869F217B798FE0050A7CF /* Supporting Files */,
+			);
+			path = LittleRecord;
+			sourceTree = "<group>";
+		};
+		288869F217B798FE0050A7CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				288869F317B798FE0050A7CF /* LittleRecord-Info.plist */,
+				288869F417B798FE0050A7CF /* InfoPlist.strings */,
+				288869F717B798FE0050A7CF /* main.m */,
+				288869F917B798FE0050A7CF /* LittleRecord-Prefix.pch */,
+				288869FA17B798FE0050A7CF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28886A1117B798FE0050A7CF /* LittleRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				28886A1717B798FE0050A7CF /* LittleRecordTests.h */,
+				28886A1817B798FE0050A7CF /* LittleRecordTests.m */,
+				28886A1217B798FE0050A7CF /* Supporting Files */,
+			);
+			path = LittleRecordTests;
+			sourceTree = "<group>";
+		};
+		28886A1217B798FE0050A7CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28886A1317B798FE0050A7CF /* LittleRecordTests-Info.plist */,
+				28886A1417B798FE0050A7CF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288869E617B798FE0050A7CF /* LittleRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28886A1C17B798FE0050A7CF /* Build configuration list for PBXNativeTarget "LittleRecord" */;
+			buildPhases = (
+				288869E317B798FE0050A7CF /* Sources */,
+				288869E417B798FE0050A7CF /* Frameworks */,
+				288869E517B798FE0050A7CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleRecord;
+			productName = LittleRecord;
+			productReference = 288869E717B798FE0050A7CF /* LittleRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28886A0A17B798FE0050A7CF /* LittleRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28886A1F17B798FE0050A7CF /* Build configuration list for PBXNativeTarget "LittleRecordTests" */;
+			buildPhases = (
+				28886A0617B798FE0050A7CF /* Sources */,
+				28886A0717B798FE0050A7CF /* Frameworks */,
+				28886A0817B798FE0050A7CF /* Resources */,
+				28886A0917B798FE0050A7CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28886A1017B798FE0050A7CF /* PBXTargetDependency */,
+			);
+			name = LittleRecordTests;
+			productName = LittleRecordTests;
+			productReference = 28886A0B17B798FE0050A7CF /* LittleRecordTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288869DE17B798FE0050A7CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LR;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Instant Street";
+			};
+			buildConfigurationList = 288869E117B798FE0050A7CF /* Build configuration list for PBXProject "LittleRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 288869DC17B798FE0050A7CF;
+			productRefGroup = 288869E817B798FE0050A7CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288869E617B798FE0050A7CF /* LittleRecord */,
+				28886A0A17B798FE0050A7CF /* LittleRecordTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288869E517B798FE0050A7CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288869F617B798FE0050A7CF /* InfoPlist.strings in Resources */,
+				288869FC17B798FE0050A7CF /* Credits.rtf in Resources */,
+				28886A0217B798FE0050A7CF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28886A0817B798FE0050A7CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28886A1617B798FE0050A7CF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28886A0917B798FE0050A7CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288869E317B798FE0050A7CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288869F817B798FE0050A7CF /* main.m in Sources */,
+				288869FF17B798FE0050A7CF /* LRAppDelegate.m in Sources */,
+				28886A0517B798FE0050A7CF /* LittleRecord.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28886A0617B798FE0050A7CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28886A1917B798FE0050A7CF /* LittleRecordTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28886A1017B798FE0050A7CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 288869E617B798FE0050A7CF /* LittleRecord */;
+			targetProxy = 28886A0F17B798FE0050A7CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		288869F417B798FE0050A7CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288869F517B798FE0050A7CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		288869FA17B798FE0050A7CF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288869FB17B798FE0050A7CF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		28886A0017B798FE0050A7CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28886A0117B798FE0050A7CF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		28886A1417B798FE0050A7CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28886A1517B798FE0050A7CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28886A1A17B798FE0050A7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28886A1B17B798FE0050A7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28886A1D17B798FE0050A7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleRecord/LittleRecord-Prefix.pch";
+				INFOPLIST_FILE = "LittleRecord/LittleRecord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28886A1E17B798FE0050A7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleRecord/LittleRecord-Prefix.pch";
+				INFOPLIST_FILE = "LittleRecord/LittleRecord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28886A2017B798FE0050A7CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LittleRecord.app/Contents/MacOS/LittleRecord";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleRecord/LittleRecord-Prefix.pch";
+				INFOPLIST_FILE = "LittleRecordTests/LittleRecordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		28886A2117B798FE0050A7CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LittleRecord.app/Contents/MacOS/LittleRecord";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LittleRecord/LittleRecord-Prefix.pch";
+				INFOPLIST_FILE = "LittleRecordTests/LittleRecordTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288869E117B798FE0050A7CF /* Build configuration list for PBXProject "LittleRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28886A1A17B798FE0050A7CF /* Debug */,
+				28886A1B17B798FE0050A7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28886A1C17B798FE0050A7CF /* Build configuration list for PBXNativeTarget "LittleRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28886A1D17B798FE0050A7CF /* Debug */,
+				28886A1E17B798FE0050A7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28886A1F17B798FE0050A7CF /* Build configuration list for PBXNativeTarget "LittleRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28886A2017B798FE0050A7CF /* Debug */,
+				28886A2117B798FE0050A7CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28886A0317B798FE0050A7CF /* LittleRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28886A0417B798FE0050A7CF /* LittleRecord.xcdatamodel */,
+			);
+			currentVersion = 28886A0417B798FE0050A7CF /* LittleRecord.xcdatamodel */;
+			path = LittleRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 288869DE17B798FE0050A7CF /* Project object */;
+}
